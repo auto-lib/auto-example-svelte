@@ -46,7 +46,7 @@ create `index.html`
 </html>
 ```
 
-create `src/main.js`
+create `app/main.js`
 
 ```js
 import App from './App.svelte'
@@ -58,7 +58,7 @@ const app = new App({
 export default app
 ```
 
-create `src/state.js`
+create `app/state.js`
 
 ```js
 import auto from '@autolib/auto';
@@ -73,7 +73,7 @@ let _ = auto({
 export default _;
 ````
 
-create `src/App.svelte`
+create `app/App.svelte`
 
 ```svelte
 <script>
